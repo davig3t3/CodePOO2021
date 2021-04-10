@@ -33,6 +33,9 @@ public class Main {
         System.out.println("ingrese codigo del material que desea buscar:");
         int codigo = leer.nextInt();
         pooflix.buscarCodigo(codigo);
+        System.out.println("ingrese nombre del material que desea buscar:");
+        String nombre = leer.next();
+        pooflix.buscarNombre(nombre);
 
 
 
